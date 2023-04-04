@@ -191,6 +191,8 @@ img{
 
 #best-collection{
     margin: 10% 3% 10% 7%;
+    position: relative;
+    bottom: 200px;
 
 }
 
@@ -271,6 +273,8 @@ img{
 
 #featured-products{
     margin: 10% 3% 3% 7%;
+    position: relative;
+    bottom: 300px;
 
 }
 
@@ -405,6 +409,7 @@ img{
      box-shadow: 0 2px 12px 4px #3434343d;
      margin: 5%;
      border-radius: 1em;
+     position: relative;
  }
  
  .new-div-image{
@@ -734,7 +739,7 @@ img{
     padding-left: 2em;
 }
 
-/* collection-texts */
+
 
 .collection-texts{
     padding-top: .5em;
@@ -1101,10 +1106,7 @@ img{
     font-weight: bold;
     font-size: .8em;
 }
-/* End */
 
-
-/* ------------------------- */
 .nav-front-section{
     background-image: url('../images/three3.png');
     width: 100%;
@@ -1122,7 +1124,7 @@ img{
     margin: 2% 3% 0 7%;
 }
 
-/* ----------- Left side */
+
 
 .navigation-bar3 .left{
     display: flex;
@@ -1172,19 +1174,19 @@ img{
 }
 
 
-.navigation-bar3 .btn-1{
+.navigation-bar3 .button-1{
     border: none;
 }
 
-.navigation-bar3 .btn-2{
+.navigation-bar3 .button-2{
     border: 2px solid #f0f0f0;
     border-radius: .4em;
 }
-.navigation-bar3 .btn-2:hover{
+.navigation-bar3 .button-2:hover{
     border: 2px solid #444;
 }
 
-.right .s-icon1 i{
+.right .my-icon i{
     position: absolute;
     font-size: 1.6em;
     margin-left: -1.2em;
@@ -1199,11 +1201,110 @@ img{
 .right span:hover{
     color: #444;
 }
-.right .s-icon2 i{
+.right .my-icon1 i{
     position: absolute;
     font-size: 1.6em;
     padding-top: .3em;
 
+}
+
+.nav-front-div-new{
+    background-image: url('../images/one11.png');
+    width: 100%;
+    background-size:cover;
+    padding-top: 38px;
+    padding-bottom: 38px;
+}
+
+.quiz{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.quiz h1{
+    text-align: center;
+    padding: 1em 0 1em 0;
+    font-size: 3em;
+    font-family: 'Times New Roman', Times, serif;
+    color: #313131;
+    margin-bottom: -.2em;
+}
+
+.search{
+    color: #b9b9b9;
+    font-size: 1.5em;
+}
+.form-element {
+    position: relative;
+} 
+
+
+.search input {
+    width: 35%;
+    height: 3.3em;
+    background: #ffffff;
+    border: none;
+    border-radius: 2em;
+}  
+
+.search input {
+    text-indent: 1em;
+}
+.search .fa-user-o {
+    position: absolute;
+    top: .3em;
+    right: .7em;
+    bottom: 0;
+}
+
+.search .fa-message{
+    position: absolute;
+    top: .3em;
+    right: .7em;
+    bottom: 0;
+}
+
+.search .fa-sliders{
+    position: absolute;
+    top: .3em;
+    right: .7em;
+    bottom: 0;
+}
+
+.search .fa-pen{
+    position: absolute;
+    top: -6em;
+    right: .7em;
+    bottom: 0;
+}
+
+.search ::placeholder{
+    color: #999;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.quiz textarea{
+    border: none;
+    border-radius: 1em;
+    padding: 1.6em;
+    color: #919191;
+    font-size: .7em;
+    width: 32%;
+    padding-bottom: 10em;
+}
+
+.quiz button{
+    margin-top: 1em;
+    padding: 1em 4em 1em 4em;
+    background-image: linear-gradient(to right, #ff517da9, #ff5926a9);
+    border: none;
+    border-radius: .6em;
+    color: #f0f0f0;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+.quiz button:hover{
+    background-image: linear-gradient(to right, #ff517d, #ff5926);
 }
 
 
